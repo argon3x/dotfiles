@@ -14,12 +14,6 @@ el nuevo prefix.
 
 ## Instalación
 
-* clonar el repositorio
-
-```bash
- $ https://github.com/argon3x/tmux.conf.git 
-```
-
 * puedes copiar o mover el archivo `tmux.conf` a tu home
 
 ```bash
