@@ -9,28 +9,29 @@ El `prefix` que usa por defecto es `alt+f` pero puede ser remplazado por cualqui
 son variables que almacenarán el nuevo prefix, y la forma en la que se dividen los paneles ya sea de \
 forma horizontal o vertical.
 
-Tomar en cuenta que para usar `ctrl` se usa `C` y para `alt` se utiliza `M` seguido de una letra.
+Tomar en cuenta que para usar `ctrl` se usa `C` y para `alt` se utiliza `M` seguido de una letra para configurar
+el nuevo prefix.
 
 ## Instalación
 
 * clonar el repositorio
 
 ```bash
-$ https://github.com/argon3x/tmux.conf.git 
+ $ https://github.com/argon3x/tmux.conf.git 
 ```
 
 * puedes copiar o mover el archivo `tmux.conf` a tu home
 
 ```bash
-$ cp $PWD/tmux.conf/tmux.conf ~/.tmux.conf
-
-$ mv $PWD/tmux.conf/tmux.conf ~/.tmux.conf
+ $ cp $PWD/tmux.conf $HOME/.tmux.conf
+ 
+ $ mv $PWD/tmux.conf $HOME/.tmux.conf
 ```
 
 * o puedes hacer un enlace simbólico
 
 ```bash
-$ ln -svf $PWD/tmux.conf/tmux.conf ~/.tmux.conf
+ $ ln -svf $PWD/tmux.conf $HOME/.tmux.conf
 ```
 
 > NUEVO FEATURE:
