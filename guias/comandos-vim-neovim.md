@@ -1,5 +1,9 @@
 # Comando VIM / NEOVIM
 
+* Descargar archivo de configuración para vim o neovim
+
+[Archivo de configuracion para vim o neovim](https://github.com/argon3x/dotfiles/tree/main/vim.conf)
+
 ## Modos Principales
 
 1. MODO NORMAL : tecla `Esc`
