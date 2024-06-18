@@ -1,0 +1,95 @@
+" Deshabilitar la compatibilidad con VI
+set nocompatible
+
+" Habilitar el mouse
+set mouse=a
+
+" Habilitar la codificacion utf8 para los archivos
+set encoding=utf-8
+
+" Habilita el portapeles del sistema
+set clipboard=unnamedplus
+
+" Muestra la barra de estado
+set laststatus=2
+
+" Maximo de historial de comandos
+set history=512
+
+" Muestra los comandos principalmente escritos
+set showcmd
+
+" Esquema de colores
+" (default,desert,elflord,evening,industry,koehler,morning,murphy,pablo,peachpuff,ron,shine,slate,torte,zellner)
+colorscheme slate
+
+" Habilita el soporte para los colores (verdaderos)
+set termguicolors
+
+" Maximo de caracateres por linea (0 deshabilitado)
+set textwidth=0
+
+" Habilitar el resaltado de sintaxis
+syntax on
+
+" Habilita el resaltado de los ({[]})
+set showmatch
+
+" Resaltar la linea donde se encuentra el cursor
+set cursorline
+
+" Agrega un poco de pariencia al cursorline
+highlight CursorLine cterm=NONE ctermbg=darkgrey guibg=#2e2e2e
+
+" Muestra la posicion del cursor
+set ruler
+
+" Mostrar el numero de lineas
+set number
+
+" Configura el ancho de la linea de los numeros
+set numberwidth=1
+
+" Habilita el numero de las lineas pero con un estilo relativo
+"set relativenumber
+
+" Autoidentar
+set autoindent
+set smartindent
+
+" Habilitar la tabulacion
+set tabstop=3
+set shiftwidth=3
+set expandtab
+
+" Deshabilitar los ficheros swap
+set nobackup
+set nowritebackup
+set noswapfile
+
+" Ignora entre mayusculas y minusculas al buscar
+set wildignorecase
+
+" Busqueda sensible a mayusculas
+set ignorecase
+
+" Busqueda inteligente ignora ignorecase si la busqueda contiene una mayuscula
+set smartcase
+
+" Muestra los resultados conforme se escribe la busqueda (incremental)
+set incsearch
+
+
+"""""""""""""""""""""""""""
+""""     SHORTCUTS     """"
+"""""""""""""""""""""""""""
+
+" limpia todas las busquedas
+nnoremap <silent><Esc><Esc> :nohlsearch<CR>
+
+" moverse con h,j,k,l en modo insert
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+
