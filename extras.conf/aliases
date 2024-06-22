@@ -1,0 +1,28 @@
+##############################
+###       ALIAS LIST       ###
+##############################
+
+# Extra Aliases
+alias ..='cd ../'
+alias ...='cd ../../'
+alias clear='tput reset'
+
+# ls Command
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+alias lx='ls -X'
+
+# tree Command
+alias tree='tree -C'
+
+# grep/egrep Command
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+
+# bat Command
+alias bat='bat -f --theme Dracula --tabs 3'
+
+# ip Command
+alias ip='ip -c'
+
