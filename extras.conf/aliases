@@ -9,7 +9,7 @@ alias clear='tput reset'
 
 # ls Command
 alias ls='ls --color=auto'
-alias ll='ls -l'
+alias ll='ls -lh'
 alias la='ls -A'
 alias lx='ls -X'
 
@@ -25,4 +25,3 @@ alias bat='bat -f --theme Dracula --tabs 3'
 
 # ip Command
 alias ip='ip -c'
-
